@@ -3,7 +3,7 @@
 
 # Get directory path for mutants
 # For testing
-# $MutantPath = "C:\Users\Fenil\Documents\Eclipse projects\mutants"
+# $MutantPath = "C:\Users\kavya\Documents\Eclipse projects\mutants"
 Write-Host "Input your mutant directory path"
 Write-Host "NOTE: If geo-master is at path\to\mutant-directory\geo-master, then enter path\to\mutant-directory"
 $MutantPath = Read-Host -Prompt 'Enter Path: '
