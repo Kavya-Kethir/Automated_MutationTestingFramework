@@ -39,6 +39,9 @@ public abstract class InfixVisitor extends ASTVisitor {
 		infixVisitors.add(new InfixVisitorRemainderToTimes());
 		infixVisitors.add(new InfixVisitorMinusToPlus());
 		infixVisitors.add(new InfixVisitorPlusToMinus());
+		infixVisitors.add(new InfixVisitorPlusToTimes());
+		infixVisitors.add(new InfixVisitorPlusToDivide());
+		infixVisitors.add(new InfixVisitorPlusToRemainder());
 
 		return infixVisitors;
 	}
