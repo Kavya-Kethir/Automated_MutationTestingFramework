@@ -10,7 +10,7 @@ class InfixVisitorRemainderToMinus extends InfixVisitor {
 			// convert % to -
 			GeoProjectInformation.buildReport();
 			GeoProjectInformation.buildReport("Infix change: convert % to -");
-			node.setOperator(InfixExpression.Operator.Minus);
+			node.setOperator(InfixExpression.Operator.MINUS);
 		}
 	}
 }
